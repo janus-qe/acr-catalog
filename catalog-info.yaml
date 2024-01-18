@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acr-test-entity
+  annotations:
+    'azure-container-registry/repository-name': `hello-world',
+spec:
+  type: website
+  lifecycle: development
+  owner: janus-authors
